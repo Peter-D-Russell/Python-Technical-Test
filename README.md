@@ -24,7 +24,7 @@ The first parameter can be "D" or "S"
 
 Subsequent parameters have either one or two artists names.
 
-  I
+ 
 Ideas for Future Development
 ----------------------------
 
