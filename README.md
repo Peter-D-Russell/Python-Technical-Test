@@ -11,12 +11,15 @@ The names of 2 artists can be passed for comparison.
 Program requires the following installs:
 
 pip install musicbrainxngs
+
 pip install requests
 
 Example Command: python Technical_Test_PDR.py "D" "Neil Young" "The Pixies"
 
 The first parameter can be "D" or "S"
+
     D - Detailed report including retrieved song names and number of words
+    
     S - Summary report with just average number number of words per song
 
 Subsequent parameters have either one or two artists names.
