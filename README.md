@@ -35,6 +35,10 @@ Ideas for Future Development
 - Investigate why the number of songs returned varies from run to run, for the same artist.
   Possible causes could be a limit on the number of items returned by the Api, combined with random
   selection.  Memory contraints could also be a cause.
+  
+- Try alternative ways of using the Apis in obtaining the lists of songs.
+
+- Check that using the ext:score field to find the required artist is correct.
 
 
 
