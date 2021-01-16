@@ -5,7 +5,7 @@ Technical_Test - Find average number of words by artist.
 Finds the average number of words in songs by an artist.
 The names of 2 artists can be passed for comparison.
 
-Example Command: python Technical_Test_PDR "D" "Neil Young" "The Pixies"
+Example Command: python Technical_Test_PDR.py "D" "Neil Young" "The Pixies"
 
 The first parameter can be "D" or "S"
     D - Detailed report including retrieved song names and number of words
