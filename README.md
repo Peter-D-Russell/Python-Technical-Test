@@ -4,7 +4,7 @@ Technical_Test - Find average number of words by artist.
 
 Author:  Pete Russell
 
-Finds the average number of words in songs by an artist.
+Python CLI program to find the average number of words in songs by an artist.
 Optionally lists the song names and lengths.
 The names of 2 artists can be passed for comparison.
 
@@ -20,7 +20,7 @@ The first parameter can be "D" or "S"
 
     D - Detailed report including retrieved song names and number of words
     
-    S - Summary report with just average number number of words per song
+    S - Summary report with just average number of words per song
 
 Subsequent parameters supply either one or two artists names.
 
@@ -28,7 +28,7 @@ Subsequent parameters supply either one or two artists names.
 Ideas for Testing/Future Development
 ----------------------------
 
-- Investigate reasons for some major acts (The Clash, The Undertones), return no songs.
+- Investigate reasons why some major acts (The Clash, The Undertones, R.E.M), return no songs.
 
 - Return reason for no songs found, e.g Artist Not Found, No Recordings Found, No Lyrics Found.
 
@@ -38,7 +38,7 @@ Ideas for Testing/Future Development
   
 - Try alternative ways of using the Apis in obtaining the lists of songs.
 
-- Check that using the ext:score field to find the required artist is correct.
+- Check that using the ext:score field to find the required artist id is appropriate.
 
 - Investigate Apis on different websites.
 
