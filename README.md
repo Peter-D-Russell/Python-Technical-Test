@@ -22,15 +22,15 @@ The first parameter can be "D" or "S"
     
     S - Summary report with just average number number of words per song
 
-Subsequent parameters have either one or two artists names.
+Subsequent parameters supply either one or two artists names.
 
  
-Ideas for Future Development
+Ideas for Testing/Future Development
 ----------------------------
 
 - Investigate reasons for some major acts (The Clash, The Undertones), return no songs.
 
-- Indicate reason for no songs found, e.g Artist Not Found, No Recordings Found, No Lyrics Found.
+- Return reason for no songs found, e.g Artist Not Found, No Recordings Found, No Lyrics Found.
 
 - Investigate why the number of songs returned varies from run to run, for the same artist.
   Possible causes could be a limit on the number of items returned by the Api, combined with random
@@ -39,6 +39,8 @@ Ideas for Future Development
 - Try alternative ways of using the Apis in obtaining the lists of songs.
 
 - Check that using the ext:score field to find the required artist is correct.
+
+- Investigate Apis on different websites.
 
 
 
